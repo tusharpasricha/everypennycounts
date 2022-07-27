@@ -11,28 +11,11 @@ const Allexpense = () => {
 
     const [expenses,setexpenses]=useState([{
         id:nanoid(),
-        name:"shos",
-        money:"5000",
-        date:'21/07/2002'
-    },
-    {
-        id:nanoid(),
-        name:"shirt",
-        money:"5000",
-        date:'21/07/2002'
-    },
-    {
-        id:nanoid(),
-        name:"jeans",
-        money:"5000",
-        date:'21/07/2002'
-    },
-    {
-        id:nanoid(),
-        name:"jeans",
-        money:"5000",
+        name:"Welcome",
+        money:"00",
         date:'21/07/2002'
     }
+    
 ])
 const addnew=(name,money)=>{
     const date =new Date();
