@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:wght@300&display=swap');
+
 .footer{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(204, 204, 204);
-    background-color: #310738;
+    background-color: #4D6D9A;
     height: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+
 }

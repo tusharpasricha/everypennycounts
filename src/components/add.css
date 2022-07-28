@@ -1,51 +1,50 @@
-.add{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items: center;
-    height: 10rem;
-   
-    width: 90%;
-   
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:wght@300&display=swap');
+
+.add {
+  display: flex;
+  align-items: center;
+  
+  height: 8rem;
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
+
 }
-.addexpense{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-   
-    width: 100%;
-    height: 60%;
-    align-items: center;
+.addexpense {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+  align-items: center;
 }
-.btn{
-    height: 40%;
-    width: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.btn {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
 }
-.addbtn{
-    color: white;
-    background-color: #47294c;
-        width: 20%;
-    height: 2rem;
-    border-radius: 20px;
-    cursor: pointer;
+.addbtn {
+  color: white;
+  background-color: #47294c;
+  width: 20%;
+  height: 2rem;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.addname,.addmoney{
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.addname,
+.addmoney {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-input{
-    height: 1.5rem;
-    width: 40%;
-    background-color: #816f7d;
-        color: white;
-    border: none;
+input {
+  height: 1.5rem;
+  width: 50%;
+  background-color: transparent;
+  color: white;
+  border: none;
 }

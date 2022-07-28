@@ -1,17 +1,9 @@
-import Allexpense from "./components/allexpense";
-import Head from "./components/head";
-import Footer from "./components/footer";
-
+import Main from "./pages/main";
 
 function App() {
-  
-
   return (
     <div className="App">
-      <Head/>
-      
-      <Allexpense/>
-      <Footer/>
+      <Main />
     </div>
   );
 }

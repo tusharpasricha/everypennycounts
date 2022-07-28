@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:wght@300&display=swap');
 .allexpense{
     
-    background-color: #523258;
+    background-color: #86B3D1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--borderColor);
     border-radius: 5px 5px 5px 5px;
-    box-shadow: -4px 2px 10px -2px rgba(0,0,0,0.76);
-    -webkit-box-shadow: -4px 2px 10px -2px rgba(0,0,0,0.76);
-    -moz-box-shadow: -4px 2px 10px -2px rgba(0,0,0,0.76);
-
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    
+}
+.refresh{
+    color: rgb(225, 225, 225);
+    margin-top: -37px;
+    font-size: 30px;
+    padding-left: 10px;
 }

@@ -1,43 +1,41 @@
 .eachexpense{
     background-color: antiquewhite;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     width: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid var(--borderColor);
-    border-radius: 5px 5px 0px 0px;
-    box-shadow: -4px 2px 10px -2px rgba(0,0,0,0.76);
-    -webkit-box-shadow: -4px 2px 10px -2px rgba(0,0,0,0.76);
-    -moz-box-shadow: -4px 2px 10px -2px rgba(0,0,0,0.76);
+    background-color: #477ea8;
+    color: rgb(225, 225, 225);
+  
+   
+}
+.eachexpense:hover{
+    background-color: rgb(6, 51, 77);
+}
+.date
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #477ea8;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+.name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #4b86b3;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+.money{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    background-color: #5489b1;
 
 }
-.nav{
-    background-color: #816f7d;
-        color: white;
-    height: 2rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 10px;
-}
-.data{
-    display: flex;
-    flex-direction: column;
-    height: 4rem;
-    background-color: #402b4c;
-    color: white;
-    padding-top: 10px;
-    justify-content:space-between;
-    align-items: center;
 
-}
-.value{
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-}
-.minusicon{
-    color: rgb(255, 255, 255);
-}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { FaCloudUploadAlt } from 'react-icons/fa';
 import './add.css'
 
 const Add = ({handledadd}) => {
@@ -25,18 +26,18 @@ const Add = ({handledadd}) => {
    
   return (
     <div className='add'>
-
+        
         <div className="addexpense">
             <div className="addname">
-                <input className='ip' value={addname} onChange={handlenamechange} type="text" placeholder='name' />
+                <input className='ip' value={addname} onChange={handlenamechange} type="text" placeholder='NEW EXPENSE' />
             </div>
             <div  className="addmoney">
-                <input  value={addmoney} onChange={handlemoneychange} type="number" />
+                <input  value={addmoney} onChange={handlemoneychange} type="number" placeholder='AMOUNT' />
             </div>
         </div>
         
         <div className='btn'>
-        <button onClick={handleaddclick} className='addbtn'>Add</button>
+            <FaCloudUploadAlt onClick={handleaddclick} />
         </div>
     </div>
   )
